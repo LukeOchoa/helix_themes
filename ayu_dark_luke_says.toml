@@ -58,7 +58,7 @@
 "diagnostic.hint" = { underline = { color = "blue", style="curl"} }
 "diagnostic.info" = { underline = { color = "blue", style="curl"} }
 "diagnostic.warning" = { underline = { color = "green", style="curl"} }#e6ff00
-"diagnostic.error" = { underline = { color = "deep_red", style="curl"} }
+"diagnostic.error" = { bg = "dark_gray", fg = "deep_red", modifiers = ["crossed_out", "bold"] } #{   underline = { color = "deep_red", style="curl"} }
 "ui.bufferline" = { fg = "gray", bg = "background" }
 "ui.bufferline.active" = { fg = "foreground", bg = "dark_gray" }
 "ui.debug" = { fg = "orange", bg = "background" }
