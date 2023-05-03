@@ -13,7 +13,7 @@
 "variable" = "white"
 "label" = "orange"
 "punctuation" = "foreground"
-"keyword" = "orange"
+"keyword" = { fg = "#FFEF00", modifiers = ["bold"] }
 "keyword.control" = "yellow"
 "keyword.directive" = "yellow"
 "operator" = "orange"
@@ -32,7 +32,7 @@
 "diff.delta" = "yellow"
 
 # Interface
-"ui.background"= { bg = "#000000" }
+"ui.background"= { bg = "#0b0e14" }  #"#000000" }
 "ui.cursor" = { fg = "dark_gray", bg = "orange" }
 "ui.cursor.match" = "orange"
 "ui.linenr" = {fg = "magenta", modifiers = ["bold", "italic"]} # !Line Numbers (Usually on the left side of the screen... idk what some of yall did to yo syhstums!)     This is studidly named!
