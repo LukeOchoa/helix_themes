@@ -13,7 +13,7 @@
 "variable" = "white"
 "label" = "orange"
 "punctuation" = "foreground"
-"keyword" = { fg = "#FFEF00", modifiers = ["bold"] }
+"keyword" = { fg = "#FFEF00", modifiers = ["bold", "italic"] }
 "keyword.control" = "yellow"
 "keyword.directive" = "yellow"
 "operator" = "orange"
@@ -50,7 +50,7 @@
 "ui.virtual.inlay-hint" = { fg = "#e6b450", bg = "#302a20" }  # original bg #e6b45033
 "ui.menu" = { fg = "foreground", bg = "black" }
 "ui.menu.selected" = { bg = "gray", fg = "background" }
-"ui.selection" = { bg = "dark_gray" }
+"ui.selection" = { bg = "luke_ocean" } # the Selection Highligher when you press "x" on a row
 "warning" = {fg = "white", modifiers = ["underlined"]} # This is the little dot on the left side of the screen!(but for compiler/linter warnings? could be a little different depending on you lang) You people need to name these things better! What the heck mans, it aint that hard. That why no one uses this goodgood tech. You make it to hard/inconvenient for normal people to use...
 "error" = { bg = "#340034" , fg = "deep_red", modifiers = ["underlined"] }
 "info" = { fg = "blue", modifiers = ["bold"] }
@@ -70,6 +70,7 @@
 background = "#0f1419"
 foreground = "#bfbdb6"
 
+luke_ocean = "#1e5061"
 black = "#131721"
 blue = "#59c2ff"
 dark_gray = "#2d3640"
