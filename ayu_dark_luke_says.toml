@@ -14,7 +14,7 @@
 "label" = "orange"
 "punctuation" = "foreground"
 "keyword" = { fg = "#FFEF00", modifiers = ["bold", "italic"] }
-"keyword.control" = "yellow"
+"keyword.control" = "yellow" # Keywords like 'return', this will change its color 
 "keyword.directive" = "yellow"
 "operator" = "orange"
 "function" = {fg = "deep_red", modifiers = ["bold"]}
@@ -34,7 +34,8 @@
 # Interface
 "ui.background"= { bg = "#0b0e14" }  #"#000000" }
 "ui.cursor" = { fg = "dark_gray", bg = "orange" }
-"ui.cursor.match" = "orange"
+#"ui.cursor.match"   = { modifiers = ["rapid_blink"], underline = { color = "yellow", style="line"} } # = { fg = "yellow", modifiers = ["bold"] } # "orange" # Things like parenthesis and brackets. When you hover over them the cursor, it highlights the corresponding opposite thingy
+"ui.cursor.match" = {bg = "dark_gray", fg = "yellow", modifiers = ["bold", "rapid_blink", "crossed_out"] } # "orange" # Things like parenthesis and brackets. When you hover over them the cursor, it highlights the corresponding opposite thingy
 "ui.linenr" = {fg = "magenta", modifiers = ["bold", "italic"]} # !Line Numbers (Usually on the left side of the screen... idk what some of yall did to yo syhstums!)     This is studidly named!
 "ui.linenr.selected" = "gray"
 "ui.statusline" = { fg = "foreground", bg = "black" }
