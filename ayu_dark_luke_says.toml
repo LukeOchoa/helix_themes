@@ -1,4 +1,4 @@
-# Author: André Sá <enkodr@outlook.com>
+# Author: Luke Ochoa
 # Based on the AYU theme colors from https://github.com/dempfi/ayu
 
 # Syntax highlighting
@@ -34,8 +34,7 @@
 # Interface
 "ui.background"= { bg = "#0b0e14" }  #"#000000" }
 "ui.cursor" = { fg = "dark_gray", bg = "orange" }
-#"ui.cursor.match"   = { modifiers = ["rapid_blink"], underline = { color = "yellow", style="line"} } # = { fg = "yellow", modifiers = ["bold"] } # "orange" # Things like parenthesis and brackets. When you hover over them the cursor, it highlights the corresponding opposite thingy
-"ui.cursor.match" = {bg = "dark_gray", fg = "yellow", modifiers = ["bold", "rapid_blink", "crossed_out"] } # "orange" # Things like parenthesis and brackets. When you hover over them the cursor, it highlights the corresponding opposite thingy
+"ui.cursor.match" = { bg = "darker_than_green", fg = "yellow", modifiers = ["bold", "rapid_blink", "crossed_out"] } # BLINKING Parenths! Things like parenthesis and brackets. When you hover over them the cursor, it highlights the corresponding opposite thingy
 "ui.linenr" = {fg = "magenta", modifiers = ["bold", "italic"]} # !Line Numbers (Usually on the left side of the screen... idk what some of yall did to yo syhstums!)     This is studidly named!
 "ui.linenr.selected" = "gray"
 "ui.statusline" = { fg = "foreground", bg = "black" }
@@ -72,6 +71,8 @@ background = "#0f1419"
 foreground = "#bfbdb6"
 
 luke_ocean = "#1e5061"
+darker_than_black = "#030201"
+darker_than_green = "#013220"
 black = "#131721"
 blue = "#59c2ff"
 dark_gray = "#2d3640"
